@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
+  <diagram name="Kontekst Dijagram - Sve Razine" id="7TKyA0effkasYndy0Zo8">
+    <mxGraphModel dx="1111" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="80e1_SKxq7YkEwQX1NSA-1" value="Razina 0: Informacijski sustav Tehničkog muzeja (P0)" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="700" y="240" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="80e1_SKxq7YkEwQX1NSA-2" value="Posjetitelj" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="780" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="80e1_SKxq7YkEwQX1NSA-3" value="Administrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="305" y="265" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="80e1_SKxq7YkEwQX1NSA-4" value="Zaposlenik muzeja" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="780" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="80e1_SKxq7YkEwQX1NSA-1" target="80e1_SKxq7YkEwQX1NSA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="200" as="sourcePoint" />
+            <mxPoint x="820" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.633;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="80e1_SKxq7YkEwQX1NSA-2" target="80e1_SKxq7YkEwQX1NSA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="210" as="sourcePoint" />
+            <mxPoint x="910" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="80e1_SKxq7YkEwQX1NSA-3" target="80e1_SKxq7YkEwQX1NSA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="300" as="sourcePoint" />
+            <mxPoint x="610" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.007;exitY=0.64;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="80e1_SKxq7YkEwQX1NSA-1" target="80e1_SKxq7YkEwQX1NSA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="350" as="sourcePoint" />
+            <mxPoint x="630" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.532;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.567;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="80e1_SKxq7YkEwQX1NSA-4" target="80e1_SKxq7YkEwQX1NSA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="849" y="400" as="sourcePoint" />
+            <mxPoint x="870" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.425;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="80e1_SKxq7YkEwQX1NSA-1" target="80e1_SKxq7YkEwQX1NSA-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="350" as="sourcePoint" />
+            <mxPoint x="830" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-11" value="Zahtjev za informacijama o izložbama, edukativnim programima, događanjima;&amp;nbsp;&lt;div&gt;rezervacija termina;&lt;/div&gt;&lt;div&gt;&amp;nbsp;komentari i povratne informacije.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="140" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-12" value="Informacije o radnom vremenu,&amp;nbsp;&lt;div&gt;događanjima i izložbama;&amp;nbsp;&lt;/div&gt;&lt;div&gt;potvrde rezervacija; opći podaci o muzeju.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-14" value="Upravljanje korisnicima i ulogama, dodavanje/uređivanje sadržaja,&lt;div&gt;&amp;nbsp;unos i izmjena podataka o izložbama i događanjima, postavke sustava.&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="215" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-15" value="Administratorski uvid u sve funkcionalnosti sustava, izvještaji o korištenju sustava, statistike posjećenosti i rezervacija." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="305" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-16" value="Podaci o održavanju izložbi, raspored rada, evidencija edukativnih aktivnosti, izvještaji o stanju eksponata." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="355" width="267" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fiTux-j35UaihAPEYWhk-17" value="Raspored događanja, obavijesti o rezervacijama i grupnim posjetima, upute i podsjetnici za operativne zadatke." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="350" width="180" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
